@@ -1,0 +1,40 @@
+{
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Sorry, I didn\u2019t catch that. You can ask: \u201cWhere is my order?\u201d, \u201cReturn policy?\u201d, or \u201cCancel order?\u201d."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "events": [],
+  "fallbackIntent": false,
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": ""
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

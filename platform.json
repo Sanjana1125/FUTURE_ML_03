@@ -1,0 +1,34 @@
+{
+  "id": "",
+  "name": "platform",
+  "isOverridable": true,
+  "isEnum": true,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "entries": [
+    {
+      "value": "website",
+      "synonyms": [
+        "website",
+        "site",
+        "web"
+      ]
+    },
+    {
+      "value": "app",
+      "synonyms": [
+        "app",
+        "mobile app",
+        "application"
+      ]
+    },
+    {
+      "value": "telegram",
+      "synonyms": [
+        "telegram",
+        "tg"
+      ]
+    }
+  ]
+}

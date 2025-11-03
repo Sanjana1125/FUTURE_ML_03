@@ -1,0 +1,18 @@
+{
+  "description": "CustomerSupportBot: greetings, FAQs, fallback, and Create_Ticket with webhook.",
+  "language": "en",
+  "shortDescription": "CustomerSupportBot",
+  "defaultTimezone": "Asia/Kolkata",
+  "mlMinConfidence": 0.3,
+  "onePlatformApiVersion": "v2",
+  "analyzeQueryTextSentiment": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "protocolVersion": "V2"
+  },
+  "webhook": {
+    "url": "https://supportbot.vercel.app/webhook",
+    "available": true,
+    "useForDomains": false
+  }
+}

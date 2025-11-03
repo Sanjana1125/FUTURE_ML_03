@@ -1,0 +1,80 @@
+{
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hi! \ud83d\udc4b I\u2019m your support assistant. I can help with orders, returns, delivery, payments, and more. How can I help today?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "fallbackIntent": false,
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "hey"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "good morning"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "good evening"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

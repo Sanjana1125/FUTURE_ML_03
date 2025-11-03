@@ -1,0 +1,67 @@
+{
+  "name": "Payment_Methods",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "We accept UPI, Net Banking, Debit/Credit Cards, and major wallets. COD is available in select pincodes."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "events": [],
+  "fallbackIntent": false,
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "payment options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "do you accept UPI"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "COD available"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "credit card or debit card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

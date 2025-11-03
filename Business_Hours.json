@@ -1,0 +1,67 @@
+{
+  "name": "Business_Hours",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Chat is 24/7. Phone/email support runs 9:00\u201318:00 IST (Mon\u2013Sat)."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "events": [],
+  "fallbackIntent": false,
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "support timing"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "customer care hours"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "when are you available"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "working hours"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

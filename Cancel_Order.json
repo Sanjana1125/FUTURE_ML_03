@@ -1,0 +1,67 @@
+{
+  "name": "Cancel_Order",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Orders can be cancelled before shipping: My Orders \u2192 Select order \u2192 Cancel. If already shipped, refuse delivery or return after arrival."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "events": [],
+  "fallbackIntent": false,
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "cancel my order"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "how to cancel order"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "cancel before shipping"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I want to cancel"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

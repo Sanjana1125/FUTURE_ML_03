@@ -1,0 +1,67 @@
+{
+  "name": "Contact_Support",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Email: support@example.com | Phone: +91-90000-00000 (9:00\u201318:00 IST, Mon\u2013Sat). Or describe your issue here."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "events": [],
+  "fallbackIntent": false,
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "talk to a human"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "contact support"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "email address"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "customer care number"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

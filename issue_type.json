@@ -1,0 +1,55 @@
+{
+  "id": "",
+  "name": "issue_type",
+  "isOverridable": true,
+  "isEnum": true,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "entries": [
+    {
+      "value": "order",
+      "synonyms": [
+        "order",
+        "purchase",
+        "item",
+        "package"
+      ]
+    },
+    {
+      "value": "payment",
+      "synonyms": [
+        "payment",
+        "card",
+        "upi",
+        "transaction",
+        "charged"
+      ]
+    },
+    {
+      "value": "refund",
+      "synonyms": [
+        "refund",
+        "return money",
+        "cashback"
+      ]
+    },
+    {
+      "value": "delivery",
+      "synonyms": [
+        "delivery",
+        "shipping",
+        "courier",
+        "arrival"
+      ]
+    },
+    {
+      "value": "return",
+      "synonyms": [
+        "return",
+        "exchange",
+        "replace"
+      ]
+    }
+  ]
+}

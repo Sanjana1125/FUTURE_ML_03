@@ -1,0 +1,145 @@
+{
+  "name": "Create_Ticket",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "name",
+          "dataType": "@sys.person",
+          "value": "$name",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "What\u2019s your full name?"
+          ]
+        },
+        {
+          "name": "email",
+          "dataType": "@sys.email",
+          "value": "$email",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Your email address?"
+          ]
+        },
+        {
+          "name": "order_id",
+          "dataType": "@sys.any",
+          "value": "$order_id",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Please share your Order ID (e.g., ORD12345)."
+          ]
+        },
+        {
+          "name": "issue_type",
+          "dataType": "@issue_type",
+          "value": "$issue_type",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Is it about an order, payment, refund, delivery, or return?"
+          ]
+        },
+        {
+          "name": "description",
+          "dataType": "@sys.any",
+          "value": "$description",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Briefly describe the issue."
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Thanks, I\u2019m creating a ticket now."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "events": [],
+  "fallbackIntent": false,
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "create a ticket"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "raise a ticket"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "file a complaint"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "need help with my order"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "payment failed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "want support"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "create a support ticket for refund"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
